@@ -1,6 +1,5 @@
 import streamlit as st
 import os
-import time
 from main import PDFDownloader
 import tempfile
 
@@ -11,14 +10,21 @@ st.set_page_config(
     layout="wide"
 )
 
-# Custom CSS for frosted glass effect and Instagram color palette
+# Custom CSS to improve UI 
 st.markdown("""
     <style>
+  
     .st-emotion-cache-13k62yr{
             background: rgb(131,58,180);
             background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,128,1) 100%);
                         }
 
+    .st-emotion-cache-1ibsh2c{
+            background-image: url('https://img.freepik.com/free-vector/cute-hd-background-cream-design-vector_53876-156571.jpg?t=st=1734106975~exp=1734110575~hmac=850a08dc09bdcbad3ba3d9f64db4bb08a88999317ce756328536f1fcf9b7c4cf&w=996'); 
+            background-repeat: no-repeat;  /* Prevents tiling */ 
+            background-size: cover;        /* Makes the image cover the entire element */ 
+            background-position: center;   /* Centers the image */ 
+                }
 
     /* Instagram-inspired colors */
     :root {
@@ -60,6 +66,7 @@ st.markdown("""
     }
     </style>
 """, unsafe_allow_html=True)
+
 
 def create_temp_links_file(urls):
     """Create a temporary file with the provided URLs."""
@@ -143,8 +150,6 @@ https://ebharatisampat.in/readunicode.php?id=OD3"""
                     downloader.process_url(url)
                 except Exception as e:
                     st.warning(f"Error downloading {url}: {str(e)}")
-                
-
 
             # Cleanup
             downloader.cleanup()
