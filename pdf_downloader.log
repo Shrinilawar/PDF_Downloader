@@ -1,0 +1,11 @@
+2024-12-13 21:54:45,536 - INFO - Processing URL: https://www.ebharatisampat.in/ebook/index.php?bookid=MjM1OTE2NTk3NzQ1MDI3#book/
+2024-12-13 21:54:45,902 - WARNING - URL https://www.ebharatisampat.in/ebook/index.php?bookid=MjM1OTE2NTk3NzQ1MDI3#book/ does not point to a PDF file
+2024-12-13 21:54:45,902 - INFO - Attempting download with Selenium: https://www.ebharatisampat.in/ebook/index.php?bookid=MjM1OTE2NTk3NzQ1MDI3#book/
+2024-12-13 21:54:47,048 - INFO - Processing URL: https://ebharatisampat.in/readunicode.php?id=MDU1NTIyNDI3MTczMjI3
+2024-12-13 21:54:47,575 - WARNING - URL https://ebharatisampat.in/readunicode.php?id=MDU1NTIyNDI3MTczMjI3 does not point to a PDF file
+2024-12-13 21:54:47,576 - INFO - Attempting download with Selenium: https://ebharatisampat.in/readunicode.php?id=MDU1NTIyNDI3MTczMjI3
+2024-12-13 21:54:51,300 - INFO - Processing URL: https://www.ebharatisampat.in/pdfs/Intermediate_Prartical_Botany-hi.pdf
+2024-12-13 21:56:26,115 - INFO - Successfully downloaded: Intermediate_Prartical_Botany-hi.pdf
+2024-12-13 21:56:26,117 - INFO - Processing URL: https://ebharatisampat.in/readunicode.php?id=OD3
+2024-12-13 21:56:26,721 - WARNING - URL https://ebharatisampat.in/readunicode.php?id=OD3 does not point to a PDF file
+2024-12-13 21:56:26,722 - INFO - Attempting download with Selenium: https://ebharatisampat.in/readunicode.php?id=OD3
