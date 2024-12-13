@@ -90,10 +90,11 @@ def main():
     
     if input_method == "Enter URLs manually":
         # Text area for URL input
-        default_text = """https://www.ebharatisampat.in/ebook/index.php?bookid=MjM1OTE2NTk3NzQ1MDI3#book/
-https://ebharatisampat.in/readunicode.php?id=MDU1NTIyNDI3MTczMjI3
-https://www.ebharatisampat.in/pdfs/Intermediate_Prartical_Botany-hi.pdf
-https://ebharatisampat.in/readunicode.php?id=OD3"""
+        default_text = """
+               https://example.com/file1.pdf
+               https://example.com/file2.pdf
+               https://example.com/file3.pdf
+                             """
         
         urls_input = st.text_area(
             "Enter PDF URLs (one per line):",
