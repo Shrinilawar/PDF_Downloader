@@ -59,8 +59,6 @@ This repository contains a Streamlit-based application for downloading PDF files
    - Specify an output folder (default: `downloaded_pdfs`).
    - Click the **Download PDFs** button to begin downloading.
 
-### Deployment
-The application can be deployed on [Streamlit App](https://pdfdownloader-jqecyscdpfvm5jt7h5vyfh.streamlit.app/) or any hosting platform supporting Python.
 
 ---
 
